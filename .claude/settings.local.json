@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -X POST \"https://api.web3forms.com/access_key\" -H \"Content-Type: application/json\" -d \"{\\\\\"email\\\\\":\\\\\"osherben8@gmail.com\\\\\"}\")",
+      "Bash(cp \"C:\\\\Users\\\\Osher\\\\Desktop\\\\קליפ דף נחיתה.mp4\" \"C:\\\\Users\\\\Osher\\\\Desktop\\\\דף נחיתה\\\\assets\\\\video.mp4\")",
+      "Bash(cp \"C:\\\\Users\\\\Osher\\\\Desktop\\\\תמונה דף נחיתה.png\" \"C:\\\\Users\\\\Osher\\\\Desktop\\\\דף נחיתה\\\\assets\\\\pond.png\")",
+      "Bash(cp \"C:\\\\Users\\\\Osher\\\\Desktop\\\\Image 3.png\" \"C:\\\\Users\\\\Osher\\\\Desktop\\\\דף נחיתה\\\\assets\\\\visualization.png\")",
+      "Bash(ffmpeg -version)",
+      "Bash(ffmpeg -i \"C:\\\\Users\\\\Osher\\\\Downloads\\\\IMG_0105.HEIC\" \"C:\\\\Users\\\\Osher\\\\Desktop\\\\דף נחיתה\\\\assets\\\\garden.jpg\" -y)",
+      "Bash(cp \"C:\\\\Users\\\\Osher\\\\Downloads\\\\IMG_0105.HEIC\" \"C:\\\\Users\\\\Osher\\\\Desktop\\\\דף נחיתה\\\\assets\\\\garden.heic\" && echo \"copied\")",
+      "Bash(cp \"C:\\\\Users\\\\Osher\\\\Desktop\\\\IMG_0112.jpeg\" \"C:\\\\Users\\\\Osher\\\\Desktop\\\\דף נחיתה\\\\assets\\\\garden.jpg\" && echo \"done\")",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(git -C \"C:\\\\Users\\\\Osher\\\\Desktop\\\\דף נחיתה\" config user.name)",
+      "Bash(git -C \"C:\\\\Users\\\\Osher\\\\Desktop\\\\דף נחיתה\" config user.email)",
+      "Bash(git config *)",
+      "PowerShell(winget install GitHub.cli --silent 2>&1)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "PowerShell(& \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" --version 2>$null; & \"$env:LOCALAPPDATA\\\\Programs\\\\GitHub CLI\\\\gh.exe\" --version 2>$null; Write-Host \"check done\")",
+      "PowerShell(Get-ChildItem \"C:\\\\Program Files\\\\GitHub CLI\", \"$env:LOCALAPPDATA\\\\Programs\\\\GitHub CLI\" -ErrorAction SilentlyContinue | Select-Object FullName)",
+      "Bash(Get-Content \"C:\\\\Users\\\\Osher\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Osher-Desktop---------\\\\68a99382-d8db-4928-8cf3-e00033ce1e68\\\\tasks\\\\bzh9gok2c.output\" -Wait)",
+      "Bash(Select-String -Pattern \".\")"
+    ]
+  }
+}
