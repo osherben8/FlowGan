@@ -21,7 +21,12 @@
       "PowerShell(& \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" --version 2>$null; & \"$env:LOCALAPPDATA\\\\Programs\\\\GitHub CLI\\\\gh.exe\" --version 2>$null; Write-Host \"check done\")",
       "PowerShell(Get-ChildItem \"C:\\\\Program Files\\\\GitHub CLI\", \"$env:LOCALAPPDATA\\\\Programs\\\\GitHub CLI\" -ErrorAction SilentlyContinue | Select-Object FullName)",
       "Bash(Get-Content \"C:\\\\Users\\\\Osher\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Osher-Desktop---------\\\\68a99382-d8db-4928-8cf3-e00033ce1e68\\\\tasks\\\\bzh9gok2c.output\" -Wait)",
-      "Bash(Select-String -Pattern \".\")"
+      "Bash(Select-String -Pattern \".\")",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(mkdir -p \"C:\\\\Users\\\\Osher\\\\Desktop\\\\דף נחיתה\\\\.claude\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(dir assets *)",
+      "Bash(gh auth *)"
     ]
   }
 }
